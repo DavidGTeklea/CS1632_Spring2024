@@ -37,8 +37,8 @@ public class SortedCollection {
 			if(num < min){
 				min = num;
 			}
-		col.remove(min);
 		}
+		col.remove(min);
 
 		return min;
 	}
